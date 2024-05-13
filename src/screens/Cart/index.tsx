@@ -13,7 +13,7 @@ import { useModal } from "react-native-modalfy";
 import { Trans, t } from "@lingui/macro";
 import { isMobile } from "@src/utils/platform";
 import { Feather, MaterialIcons } from "@expo/vector-icons";
-import { REFERRERS, registerDomainName } from "@bonfida/spl-name-service";
+import { REFERRERS, registerDomainNameV2 } from "@bonfida/spl-name-service";
 import { NATIVE_MINT, getAssociatedTokenAddressSync } from "@solana/spl-token";
 import {
   Connection,
@@ -133,7 +133,7 @@ export const Cart = () => {
 
       const ata = getAssociatedTokenAddressSync(mintKey, buyer);
       for (let d of cart) {
-        const [, ix] = await registerDomainName(
+        const ix = await registerDomainNameV2(
           connection,
           d,
           map.get(d) || DEFAULT_SPACE,
