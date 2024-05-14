@@ -27,7 +27,7 @@
     "@adraffy/ens-normalize": "1.9.0",
     "@bonfida/name-offers": "0.2.2",
     "@bonfida/name-tokenizer": "0.1.0",
-    "@bonfida/sns-emitter": "0.2.1",
+    "@bonfida/sns-emitter": "0.2.2",
     "@bonfida/sns-react": "2.1.0",
     "@bonfida/sns-records": "0.0.1",
     "@bonfida/spl-name-service": "2.5.0",
