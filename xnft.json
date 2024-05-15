@@ -1,7 +1,7 @@
 {
   "name": "SNS Manager (Beta)",
   "version": "1.1.6",
-  "storage": "arweave",
+  "storage": "ipfs",
   "description": "All-in-one tool for SNS",
   "longDescription": "Your all-in-one tool for handling Solana Name Service (SNS) domains",
   "website": "https://github.com/Bonfida/sns-manager",
