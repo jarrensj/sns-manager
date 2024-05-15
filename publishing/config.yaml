@@ -19,7 +19,7 @@ app:
     - purpose: icon
       uri: ../assets/dapp-store/fida-icon-512x512.png
 release:
-  address: 9UQEqDvwYf5Bs5EW2C46oGuk6B4e7gKtpBv4ABkqE2GW
+  address: AYci1YFxPF8oN7odMHdky23aCTiGCuje8WVv2LJkGGHh
   media:
     - purpose: icon
       uri: ../assets/dapp-store/fida-icon-512x512.png
@@ -35,7 +35,7 @@ release:
       uri: ../assets/dapp-store/screenshots/cart-payment-1080x1920.png
   files:
     - purpose: install
-      uri: ../application-4affb5ca-1e43-4c97-bb75-01050cb108ca.apk
+      uri: ../application-d3f21bdc-d9a4-419e-b4d8-e4f8bef19f81.apk
   catalog:
     en-US:
       name: SNS Manager
@@ -45,3 +45,9 @@ release:
 solana_mobile_dapp_publisher_portal:
   google_store_package: org.bonfida.sns_manager
   testing_instructions: Open the app, connect the wallet, try to search for the domain, then select it and purchase (you should have enough funds). After that domain must appear in your profile (bottom navigation => bottom left button) and on sns.id To test localization, click on the top left button and select preferable language from a popup. There's no automatic device language detection.
+lastSubmittedVersionOnChain:
+  address: AYci1YFxPF8oN7odMHdky23aCTiGCuje8WVv2LJkGGHh
+  version_code: 16
+  apk_hash: Y9J8wTDLRYRTKyPzUoFrEBJqTHrltzpaSM7+1lgVdKs=
+lastUpdatedVersionOnStore:
+  address: AYci1YFxPF8oN7odMHdky23aCTiGCuje8WVv2LJkGGHh
