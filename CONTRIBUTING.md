@@ -45,6 +45,6 @@ We're dedicated to maintaining a welcoming and productive community. Please be r
 
 ## Questions? 💡
 
-If you have any questions, don't hesitate to open an issue or reach out to us directly on [Twitter](https://bonfida.org). We're always happy to help!
+If you have any questions, don't hesitate to open an issue or reach out to us directly on [Twitter](https://twitter.com/bonfida). We're always happy to help!
 
 Remember, your contributions are what make open source amazing. Let's build something great together! 🚀🌐
